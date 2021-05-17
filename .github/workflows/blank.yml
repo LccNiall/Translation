@@ -16,7 +16,7 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
-          workdir: <specify the directory of the app no don't mention this the app files are in root directory>
+          workdir: main/buildozer.spec
           buildozer_version: stable
 
       - name: Upload artifacts
